@@ -1,4 +1,4 @@
-package bankaccount;
+nkpackage bankaccount;
 
 import java.io.FileNotFoundException;
 import java.io.PrintWriter;
@@ -14,7 +14,7 @@ public class BankAccountApp {
 
 		List<Account> accounts = new LinkedList<Account>();
 
-		String file = "C:\User\Desktop\file.csv";
+		String file = "C:\User\Desktop\NewBankAccounts.csv";
 
 		List<String[]> newAccounts = utilities.CSV.read(file); 
 		for (String[]accountholders : newAccounts) {
